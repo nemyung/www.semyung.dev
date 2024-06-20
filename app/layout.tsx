@@ -10,6 +10,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        <meta name="description" content="A personal blog by Semyung Oh" />
+      </head>
       <body
         className={clsx(
           "bg-sage-light-2 dark:bg-sage-dark-2",
