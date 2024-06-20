@@ -3,6 +3,21 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: ["./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
+    fontSize: {
+      "heading-4": [
+        "3.225rem",
+        {
+          fontWeight: "700",
+        },
+      ],
+      "heading-3": ["2.25rem", { fontWeight: "700" }],
+      "body-2-bold": ["1rem", { fontWeight: "700" }],
+      "body-2-medium": ["1rem", { fontWeight: "500" }],
+      "body-2-regular": ["1rem", { fontWeight: "400" }],
+      "body-1-bold": ["0.875rem", { fontWeight: "700" }],
+      "body-1-medium": ["0.875rem", { fontWeight: "500" }],
+      "body-1-regular": ["0.875rem", { fontWeight: "400" }],
+    },
     extend: {
       colors: {
         "sage-light": {
