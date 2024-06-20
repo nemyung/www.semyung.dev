@@ -17,7 +17,7 @@ const ROUTES = [
 function Header() {
   return (
     <header className="h-[84px] py-[18px] px-[16px] md:px-[36px] bg-sage-light-2 dark:bg-sage-dark-2">
-      <nav>
+      <nav className="max-w-[1300px] mx-auto">
         <ol className="md:flex md:gap-[48px] items-center">
           <li>
             <Link
