@@ -20,7 +20,9 @@ export default function RootLayout({
         )}
       >
         <Header />
-        <main className="px-[16px] md:px-[36px]">{children}</main>
+        <main className="px-[16px] md:px-[36px]">
+          <div className="max-w-[1300px] mx-auto">{children}</div>
+        </main>
       </body>
     </html>
   );
