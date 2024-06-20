@@ -1,8 +1,13 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "media",
   content: ["./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
+    screens: {
+      md: "781px",
+      lg: "1084px",
+    },
     fontSize: {
       "heading-4": [
         "3.225rem",
