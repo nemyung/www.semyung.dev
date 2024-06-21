@@ -31,7 +31,7 @@ function Header() {
             {ROUTES.map((route) => (
               <li key={route.pathname}>
                 <Link
-                  className="text-sage-dark-12 dark:text-sage-dark-11 text-body-2-medium"
+                  className="text-sage-light-11 dark:text-sage-dark-11 text-body-2-medium"
                   href={route.pathname}
                 >
                   {route.name}
